@@ -1,0 +1,10 @@
+{
+    "name": "rctrides-bot",
+    "description": "Automated twitter bot for tweeting about Rollercoaster Tycoon rides",
+    "memory": 128,
+    "timeout": 5,
+    "role": "arn:aws:iam::204617975632:role/rctrides-bot_lambda_function",
+    "environment": {},
+    "runtime": "python3.6",
+    "handler": "main.handler"
+}
